@@ -7,9 +7,9 @@ fun main(){
 fun printName(name: String) {
     println("Hello $name")
 }
-    fun modulus(num1: Int, num2: Int){
+    fun modulus(num1: Int, num2: Int): Int{
         var result= num1%num2
-        println(result)
+        return result
     }
     fun add(num1: Int ,num2: Int ,num3: Int ,num4: Int){
         var sum=num1+num2+num3+num4
